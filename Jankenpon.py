@@ -23,9 +23,9 @@ print('YA')
 
 
 print('-=' * 11)
-print('Jugada del ordenador {}'.format(opcion[comput]))
+print('Opcion elegida por el ordenador: {}'.format(opcion[comput]))
 
-print('Tu Jugada {}'.format(opcion[jogador]))
+print('Tu opción: {}'.format(opcion[jogador]))
 print('-=' * 11)
 
 if comput == 0: # opcion piedra del ordenador
